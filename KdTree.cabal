@@ -1,0 +1,27 @@
+cabal-version:      2.4
+name:               KdTree
+version:            1.0.0.0
+
+-- A short (one-line) description of the package.
+synopsis: K-dimensional tree data structure implementation in Haskell
+
+-- A longer description of the package.
+description: K-dimensional tree data structure implementation in Haskell
+             1) K-dimensional point, tree types 
+             2) Common KdTree functions
+
+-- Author and maintainer
+author:             Bohdan Pylypchenko
+maintainer:         bogdan314ylypchenko@gmail.com
+
+executable KdTree2
+    main-is:          Main.hs
+
+    -- Modules included in this executable, other than Main.
+    other-modules:    KdTree
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    base
+    hs-source-dirs:   app
+    default-language: Haskell2010
